@@ -5,7 +5,7 @@ import { RouterModule }   from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
     imports: [
@@ -17,8 +17,8 @@ import { AboutComponent } from './about/about.component';
                 component: HomeComponent
             },
             {
-                path: 'about',
-                component: AboutComponent
+                path: 'form',
+                component: FormComponent
             },
             {
                 path: '',
@@ -30,7 +30,7 @@ import { AboutComponent } from './about/about.component';
     declarations: [ 
         AppComponent,
         HomeComponent,
-        AboutComponent
+        FormComponent
     ],
     bootstrap: [ AppComponent ]
 })
